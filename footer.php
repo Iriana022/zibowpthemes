@@ -12,9 +12,12 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+		<div class="btn fixed-meet">
+			Reserver
+		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 d-flex align-items-end">
+				<div class="col-md-3 d-flex align-items-end">
 					<div class="text-end">
 						<p>Un concept du</p>
 						<img width="82" src="<?php echo get_template_directory_uri().'/assets/dist/images/logo-footer.png' ?>" alt="">
@@ -25,19 +28,19 @@
 
 					</div>
 				</div>
-				<div class="col-md-8 footer-right">
+				<div class="col-md-9 footer-right">
 					<div class="menu-footer text-black text-end">
 						<a href="">Carrieres</a><a href="">A propos</a><a href="">Contact</a>
-						<a href="">carte-cadeaux</a><a href="">infolettre</a>
+						<a href="">carte-cadeaux</a><a href="">infolettre</a><a href="">Nos promos</a>
 					</div>
 					<div class="menu-footer text-black text-end">
-						<a href="">Nos promos</a><a href="">Blogue</a><a href="">politique de confidentialité</a>
+						<a href="">Blogue</a><a href="">politique de confidentialité</a>
 					</div>
 					<div class="menu-footer text-black text-end">
-						<a href="">modalites et conditions du site web et de l'application mobile du restaurant</a>
+						<a href="" class="modalite-footer text-decoration-underline">modalites et conditions du site web et de l'application mobile du restaurant</a>
 					</div>
 					<div class="menu-footer text-black text-end">
-						<a href="">Groupe zibo 2024 - tous droits réservés</a>
+						<a href="" class="modalite-footer"><span class="text-decoration-underline fw-semibold">Groupe zibo 2024</span> - tous droits réservés</a>
 					</div>
 				</div>
 			</div>

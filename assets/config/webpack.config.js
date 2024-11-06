@@ -13,7 +13,8 @@ module.exports = {
     entry: ['./assets/build/js/theme.js'],
     output: {
         path: path.join(__dirname, "../../assets/dist/js"),
-        filename: "theme.js"
+        filename: "theme.js",
+        publicPath:  '../',
     },
     optimization: {
         minimizer: [

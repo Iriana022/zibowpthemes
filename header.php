@@ -52,10 +52,10 @@
 						<a class="nav-link" href="#">en</a>
 					</li>
 					<li class="nav-item ms-5">
-						<a class="nav-link" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a class="nav-link" href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li class="nav-item">
-					<a href="" class="nav-link"><i class="fa fa-instagram" aria-hidden="true"></i>
+					<a href="" class="nav-link"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
 					</a>
 					</li>
 					</ul>

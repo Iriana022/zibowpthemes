@@ -1,1 +1,18 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+    font-family: 'sailec-medium';
+    src: url('../../fonts/sailec_medium-webfont.woff2') format('woff2'),
+         url('../../fonts/sailec_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk';
+    src: url('../../fonts/TuskerGrotesk-3500Medium.woff2') format('woff2'),
+         url('../../fonts/TuskerGrotesk-3500Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
