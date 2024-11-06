@@ -23,3 +23,19 @@
         font-family: 'sailec-medium';
     }
 }
+.hachure{
+    bottom: 10px;
+    left: 10px;
+    display: inline-block;
+    height: 2px;
+    width: 82%;
+    background-color: #fff;
+    transform:  scaleX(0);
+    transform-origin: left;
+}
+.nav-item:hover{
+    .hachure{
+        transition: transform 500ms;
+        transform: scaleX(1);
+    }
+}

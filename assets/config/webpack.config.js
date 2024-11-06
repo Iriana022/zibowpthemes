@@ -61,7 +61,7 @@ module.exports = {
                 // use: "url?limit=10000"
                 use: 'file-loader?name=[name].[ext]&outputPath=../fonts/,' },
             { test: /\.(ttf)(\?[\s\S]+)?$/, use: 'file-loader?name=[name].[ext]&outputPath=../fonts/' },
-            { test: /\.(eot|jpg|png|svg)(\?[\s\S]+)?$/, use: 'file-loader?name=/dist/images/[name].[hash].[ext]&outputPath=../' },
+            { test: /\.(eot|jpg|png|svg)(\?[\s\S]+)?$/, use: 'file-loader?name=/dist/images/[name].[ext]&outputPath=../' },
         ],
     },
 };
