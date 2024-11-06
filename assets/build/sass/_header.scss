@@ -1,0 +1,21 @@
+.navbar-nav{
+    text-transform: uppercase;
+    .nav-link{
+        color: rgba(255,255,255,1)!important;
+
+    }
+}
+.navbar-dark{
+    background-color: rgba(43,43,44,.9)!important;
+}
+.navbar{
+    flex-direction: column;
+}
+.menu-bottom{
+    a{
+        text-transform: uppercase;
+        color: #fff!important;
+        text-decoration: none;
+        margin-right: 24px;
+    }
+}
