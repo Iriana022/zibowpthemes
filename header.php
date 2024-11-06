@@ -23,7 +23,7 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
     <header class="menu">
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark pt-5">
 			<div class="container">
 				<a class="navbar-brand" href="#">
 					<img src="<?php echo get_template_directory_uri().'/assets/dist/images/logo_zibo.png'?>" width="148" alt="">

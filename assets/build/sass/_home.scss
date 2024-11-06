@@ -1,0 +1,31 @@
+#presentation{
+    height: 85vh;
+    width: 100%;
+    background: url(../../dist/images/zibo-bouffe.jpg)bottom left no-repeat;
+    background-size: 120% auto!important;
+}
+.dark-shape{
+    background-color: rgba(43,43,44,.6);
+    width: 100%;
+    height: 100%;
+}
+.pres-text{
+    h1{
+        font-size: 5rem;
+        font-family: 'Tusker Grotesk';
+        color: #fff;
+        position: relative;
+        z-index: 10;
+    }
+    p{
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        font-family: 'sailec-regular';
+        font-size: 2.1rem;
+    }
+    img{
+        position: relative;
+        z-index: 10;
+    }
+}
