@@ -25,7 +25,7 @@
     <header class="menu">
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark pt-5">
 			<div class="container">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="<?php echo home_url(); ?>">
 					<img src="<?php echo get_template_directory_uri().'/assets/dist/images/logo_zibo.png'?>" width="148" alt="">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item position-relative">
-						<a class="nav-link" href="#">A propos</a>
+						<a class="nav-link" href="<?php echo get_permalink(10) ?>">A propos</a>
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item position-relative">

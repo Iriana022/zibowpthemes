@@ -12,9 +12,7 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="btn fixed-meet">
-			Reserver
-		</div>
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 d-flex align-items-end">

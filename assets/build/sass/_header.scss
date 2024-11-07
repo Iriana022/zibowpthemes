@@ -5,6 +5,9 @@
         font-family: 'sailec-medium';
         font-size: 0.8rem;
         letter-spacing: 2px;
+        &:hover{
+            cursor: pointer;
+        }
     }
 }
 .navbar-dark{

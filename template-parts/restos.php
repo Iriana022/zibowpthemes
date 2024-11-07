@@ -14,16 +14,16 @@
             </h3>
 
             <div class="box-restos d-flex text-uppercase justify-content-between mt-5 pt-5">
-                <a href="#">
+                <a href="<?php echo get_permalink(12) ?>">
                     Anjou
                 </a>
-                <a href="#">
+                <a href="<?php echo get_permalink(15) ?>">
                     Boisbriand
                 </a>
-                <a href="#">
+                <a href="<?php echo get_permalink(19) ?>">
                     Brossard
                 </a>
-                <a href="#">
+                <a href="<?php echo get_permalink(22) ?>">
                     Griffintown
                 </a>
             </div>

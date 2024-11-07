@@ -1,0 +1,103 @@
+#about-header{
+    height: 85vh;
+    width: 100%;
+    background: url(../../dist/images/about-header.jpg)bottom left no-repeat;
+    background-size: 120% auto!important;
+}
+.outline-text{
+    -webkit-text-stroke-width: 1px !important;
+    -webkit-text-stroke-color: #fff !important;
+    -webkit-text-fill-color: transparent;
+}
+.classic-title{
+    font-size: 2em;
+    font-family: 'sailec-medium';
+}
+
+#about-concept{
+    background-color: $orange;
+    padding: 50px 0;
+}
+.para{
+    font-size: 1.2rem;
+    font-family: 'sailec-medium';
+}
+
+.title-section{
+    font-size: 5rem;
+    font-family: 'Tusker Grotesk';
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+#president{
+    background: rgb(43,43,44);
+    img{
+        max-width: 100%;
+    }
+}
+
+.sailec-medium{
+    font-family: 'sailec-regular';
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.sailec-regular{
+    font-family: 'sailec-regular';
+    font-size: .7rem;
+    line-height: 1.3;
+}
+.orange{
+    color: $orange;
+}
+
+#story{
+    width: 100%;
+    height: 85vh;
+    background: url(../../dist/images/zibo-place.jpg)bottom left no-repeat;
+    background-size: 120% auto!important;
+    overflow: hidden;
+    h2{
+        font-family: 'Tusker Grotesk';
+        font-size: 5rem;
+        color: #fff;
+        position: relative;
+    }
+    p{
+        font-family: 'sailec-regular';
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-weight: 600;
+        position: relative;
+    }
+    .background-text{
+        font-family: "Tusker Grotesk" !important;
+        position: absolute;
+        font-size: 106vh;
+        top: 0;
+        left: 0;
+        color: #111010;
+        display: inline-block;
+        width: 100%;
+        height: 80vh;
+        line-height: 0.7;
+        z-index: 0;
+        font-weight: 900;
+    }
+    button{
+        border-radius: 0;
+        font-family: 'sailec-medium';
+        color: white;
+        border-width: 3px;
+        border-color: white;
+        position: relative;
+        font-size: 1.3rem;
+        padding: 20px 55px;
+        &:hover{
+            background-color: #fff;
+            color: #111010;
+        }
+    }
+}

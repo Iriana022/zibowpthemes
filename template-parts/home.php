@@ -5,6 +5,9 @@
 get_header();
 ?>
 
+<div class="btn fixed-meet">
+    Reserver
+</div>
 <setcion id="presentation" class="d-flex position-relative justify-content-center align-items-center">
     <div class="dark-shape position-absolute top-0 start-0"></div>
     <div class="container d-flex flex-column pres-text justify-content-center align-items-center">
