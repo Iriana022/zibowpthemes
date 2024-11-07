@@ -34,7 +34,7 @@
 				<div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
 					<ul class="navbar-nav">
 					<li class="nav-item active position-relative">
-						<a class="nav-link" href="#">Nos restos</a>
+						<a class="nav-link" data-bs-toggle="modal" data-bs-target="#restos">Nos restos</a>
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item position-relative">
@@ -58,11 +58,14 @@
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item ms-5">
-						<a class="nav-link" href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+						<a class="nav-link" href="">
+							<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+						</a>
 					</li>
 					<li class="nav-item">
-					<a href="" class="nav-link"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-					</a>
+						<a href="" class="nav-link">
+							<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+						</a>
 					</li>
 					</ul>
 				</div>
@@ -72,4 +75,6 @@
 			</div>
 		</nav>
     </header>
+
+	<?php include("template-parts/restos.php"); ?>
 	<div class="py-5"></div>

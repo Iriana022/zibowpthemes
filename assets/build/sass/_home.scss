@@ -226,3 +226,53 @@
         }
     }
 }
+
+#carteasix{
+    .modal-dialog{
+        border: solid 10px #2b2b2b;
+        width: 581px;
+        height: 581px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-content{
+        border: none;
+        padding-inline: 10%;
+    }
+    .modal-header{
+        border-bottom: none;
+    }
+    .close{
+        position: absolute;
+        right: -20px;
+        top: -140px;
+        color: white;
+        background: black;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        border: none;
+    }
+    .modal-body{
+        border: none;
+        font-family: 'sailec-regular';
+        font-weight: 600;
+        color: rgb(43,43,44);
+    }
+    h3{
+        font-size: 4rem;
+        padding-bottom: 50px;
+        font-family: 'Tusker Grotesk';
+        .text-carte{
+            color: rgb(43,43,44);
+        }
+        .text-outline{
+            -webkit-text-stroke-color: #000!important;
+        }
+        .text-gold{
+            color: $orange;
+        }
+    }
+}

@@ -86,7 +86,7 @@ passionnés avec des ingrédients d’une qualité irréprochable.</p>
         DIGNES DE VOS PLUS BEAUX MOMENTS</h2>
         <p class="py-4">Consultez nos promotions qui vous permettront de profiter<br>
         plus pleinement de vos sorties en famille, entre amis ou collègues!</p>
-        <button class="btn btn-create text-uppercase" data-toggle="modal" data-target="#carteasix">
+        <button class="btn btn-create text-uppercase" data-bs-toggle="modal" data-bs-target="#carteasix">
             <span class="text-white">carte</span><span class="text-outline">à</span><span class="text-gold">six</span>
         </button>
     </div>
@@ -136,27 +136,31 @@ passionnés avec des ingrédients d’une qualité irréprochable.</p>
 </section>
 
 <!-- Modal à six -->
-<div class="modal fade" id="carteasix" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal" id="carteasix" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><span class="text-white">carte</span><span class="text-outline">à</span><span class="text-gold">six</span></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <h3 class="modal-title text-uppercase" id="exampleModalLabel">
+            <span class="text-carte">carte</span><span class="text-outline">à</span>
+            <span class="text-gold">six</span>
+        </h3>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <p>
+            Notre carte @ 6 pour des débuts de soirées festifs! Du lundi au jeudi de 16 h 18 h, profitez de notre sélection de bières et vins à seulement 6$!
+        </p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      
     </div>
   </div>
 </div>
 
 
+
 <?php 
+
 get_footer();
 ?>
