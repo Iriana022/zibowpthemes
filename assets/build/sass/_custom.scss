@@ -1,4 +1,4 @@
-#anjou-header, #boisbriand-header, #brossard-header, #griffintown-header{
+#anjou-header, #boisbriand-header, #brossard-header, #griffintown-header, #blog-header, #single-header{
     height: 85vh;
     width: 100%;
     background-position: bottom left;
@@ -6,7 +6,11 @@
     background-size: 120% auto!important;
 }
 
-#anjou-about, #boisbriand-about, #brossard-about, #griffintown-about{
+#blog-header{
+    background: url(../../dist/images/ZIBO_Accueil-blogue-min.jpg)bottom left no-repeat;
+}
+
+#anjou-about, #boisbriand-about, #brossard-about, #griffintown-about, #career{
     background-color: $orange;
     padding: 50px 0;
     h2{
@@ -34,19 +38,26 @@
     }
 }
 
-.title-white-standard{
+.title-white-standard, .title-orange-standard{
     font-family: Tusker Grotesk;
     font-size: 5rem;
     color: #fff;
     position: relative;
 }
+.title-orange-standard{
+    color: $orange;
+}
 
-.para-standard{
+.para-standard, .para-standard-orange{
     font-family: sailec-medium;
     font-size: 1.2rem;
     line-height: 2rem;
     font-weight: 600;
     position: relative;
+}
+
+.para-standard-orange{
+    color: $orange;
 }
 
 .meet-footer{
@@ -65,5 +76,141 @@
 
         object-position: bottom;
         object-fit: none;
+    }
+}
+
+#blog-content{
+    background-color: rgb(43,43,44);
+    margin-top: -30px;
+}
+.box-item-post{
+    width: 250px;
+    height: 250px;
+    img{
+        max-height: 250px;
+        object-fit: cover;
+        filter: brightness(.4);
+        width: 100%;
+    }
+    .title-post-item{
+        font-size: 1.7rem;
+        font-family: "Tusker Grotesk";
+        text-transform: uppercase;
+        position: relative;
+    }
+    p{
+        font-family: 'sailec-medium';
+        font-size: 1rem;
+        padding: 20px; 
+    }
+    &:hover{
+        background-color: $orange;
+        cursor: pointer;
+        .title-post-item, p{
+            color: #2b2b2c;
+        }
+        img{
+            display: none;
+        }
+    }
+}
+#choice {
+    background-color: #2b2b2c;
+}
+
+.menu-carriere .nav-link.active {
+    border-radius: 0;
+    background-color: #c29863;
+    color: #2b2b2c;
+}
+.menu-carriere .nav-link {
+    width: 100%;
+    color: #fff;
+    padding-block: 15px;
+    text-transform: uppercase;
+}
+.menu-carriere li {
+    width: 33%;
+    font-family: sailec-medium;
+    font-size: 35px;
+    text-align: center;
+}
+
+.content-sevice-tabs {
+    background: url(../../dist/images/zibo-shadow.jpg) 0 0 no-repeat;
+    background-size: cover;
+    padding-block: 25px;
+    color: #2b2b2c;
+}
+
+.btn-outline-sailec {
+    font-family: sailec-medium;
+    color: #2b2b2c;
+    background-color: transparent;
+    border: 2px solid #2b2b2c;
+    padding: 22px 42px;
+    margin-inline: auto;
+}
+
+.btn-outline-sailec:hover {
+    background-color: #2b2b2c;
+    color: #fff;
+}
+
+.title-black-standard, .title-white-standard {
+    font-family: Tusker Grotesk;
+    font-size: 5rem;
+    position: relative;
+}
+.title-black-standard {
+    color: #2b2b2c;
+}
+
+.tab-content .accordion-button {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    background: transparent;
+    border-top: 1px solid #2b2b2c;
+    margin-bottom: -1px;
+}
+
+.tab-content .accordion-item {
+    background: transparent;
+    border: none;
+    font-family: sailec-medium;
+}
+.tab-content .accordion-button:focus {
+    box-shadow: none;
+}
+.tab-content .accordion-button:not(.collapsed) {
+    color: #2b2b2c;
+}
+
+.single-post{
+    background-color: rgb(230, 214, 192);
+    h2{
+        color: $orange;
+        font-family: 'sailec-medium';
+        font-size: 2rem;
+        letter-spacing: .56px;
+        line-height: 35.2px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: 'sailec-regular';
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    li{
+        font-family: 'sailec-regular';
+        font-weight: 500;
+    }
+    .description-image{
+        p{
+            font-family: 'Tusker Grotesk';
+            font-size: 2.2rem;
+            color: rgb(43,43,44);
+            font-weight: normal;
+        }
     }
 }

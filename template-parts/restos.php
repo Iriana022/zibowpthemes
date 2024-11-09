@@ -14,30 +14,30 @@
             </h3>
 
             <div class="box-restos d-flex text-uppercase justify-content-between mt-5 pt-5">
-                <a href="<?php echo get_permalink(12) ?>">
+                <a href="<?php echo get_permalink(10) ?>">
                     Anjou
                 </a>
-                <a href="<?php echo get_permalink(15) ?>">
+                <a href="<?php echo get_permalink(12) ?>">
                     Boisbriand
                 </a>
-                <a href="<?php echo get_permalink(19) ?>">
+                <a href="<?php echo get_permalink(14) ?>">
                     Brossard
                 </a>
-                <a href="<?php echo get_permalink(22) ?>">
+                <a href="<?php echo get_permalink(16) ?>">
                     Griffintown
                 </a>
             </div>
             <div class="box-restos d-flex text-uppercase justify-content-between mt-4">
-                <a href="#">
+                <a href="<?php echo get_permalink(55) ?>">
                     Laval
                 </a>
-                <a href="#">
+                <a href="<?php echo get_permalink(62) ?>">
                     Saint-Bruno
                 </a>
-                <a href="#">
+                <a href="<?php echo get_permalink(61) ?>">
                     saint-hyacinte
                 </a>
-                <a href="#">
+                <a href="<?php echo get_permalink(63) ?>">
                     Vaudreuil
                 </a>
             </div>

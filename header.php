@@ -38,19 +38,19 @@
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item position-relative">
-						<a class="nav-link" href="<?php echo get_permalink(10) ?>">A propos</a>
+						<a class="nav-link" href="<?php echo get_permalink(8) ?>">A propos</a>
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item position-relative">
-						<a class="nav-link" href="#">carte cadeaux</a>
+						<a class="nav-link" href="https://groupezibo.achatdecartescadeaux.com/fr/login" target="_blank" rel="nofollow">carte cadeaux</a>
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item position-relative">
-						<a class="nav-link" href="#">carrieres</a>
+						<a class="nav-link" href="<?php echo get_permalink(81) ?>">carrieres</a>
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item position-relative">
-						<a class="nav-link" href="#">blogue</a>
+						<a class="nav-link" href="<?php echo get_permalink(118) ?>">blogue</a>
 						<span class="hachure position-absolute"></span>
 					</li>
 					<li class="nav-item position-relative">
